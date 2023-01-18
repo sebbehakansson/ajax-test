@@ -6,10 +6,6 @@ body{
     text-align: center;
 }
 
-#clickers{
-    justify-content: space-between;
-}
-
 h1{
 
     background-color: rgb(235, 178, 116);;
@@ -42,7 +38,7 @@ button{
     background-color: blue;
     border-radius: 12px;
     margin-top: 20px;
-    width: 100px;
+    width: 150px;
     transition: 0.4s;
     box-shadow: 5px 5px 5px gray;
 }

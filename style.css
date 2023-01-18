@@ -1,1 +1,53 @@
-ECHO is on.
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darkorange;
+    text-align: center;
+}
+
+#clickers{
+    justify-content: space-between;
+}
+
+h1{
+
+    background-color: rgb(235, 178, 116);;
+    color: blue;
+    border: solid rgb(101, 100, 100) 5px;
+    border-radius: 12px;
+    font-size: xx-large;
+    margin: auto;
+    width: fit-content;
+    box-shadow: 10px 5px 5px gray;
+}
+
+#pictures-style{
+    border: solid black 6px;
+    border-radius: 12px;
+    background-color: rgb(235, 178, 116);
+    margin-top: 20px;
+}
+
+img{
+    border: solid blue 5px;
+    border-radius: 12px;
+    margin: 10px;
+    height: 50vh;
+    box-shadow: 10px 5px 5px gray;
+}
+
+button{
+    font-size: 25px;
+    background-color: blue;
+    border-radius: 12px;
+    margin-top: 20px;
+    width: 100px;
+    transition: 0.4s;
+    box-shadow: 5px 5px 5px gray;
+}
+
+button:hover{
+    background-color: rgb(1, 1, 110);
+    color: white;
+}
